@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最終課題</title>
+  <link rel="stylesheet" href="kadai2.css">
+</head>
+<body>
+  <header>
+    <h1>最終課題</h1>
+    <nav>
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">プロフィール</a></li>
+        <li><a href="#">プロジェクト</a></li>
+        <li><a href="#">コンタクト</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="main__home">
+      <h2>ホーム</h2>
+      <p>ここにホームのコンテンツが入ります。</p>
+    </div>
+
+    <div class="main__profile">
+      <h2>プロフィール</h2>
+      <p>ここにプロフィールのコンテンツが入ります。</p>
+    </div>
+
+    <div class="main__project">
+      <div class="main__project__gallery">
+        <h2>プロジェクト</h2>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト1">
+          <h3>プロジェクト1</h3>
+          <p>プロジェクト1の説明がここに入ります。</p>
+        </div>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト2">
+          <h3>プロジェクト2</h3>
+          <p>プロジェクト2の説明がここに入ります。</p>
+        </div>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト3">
+          <h3>プロジェクト3</h3>
+          <p>プロジェクト3の説明がここに入ります。</p>
+        </div>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト4">
+          <h3>プロジェクト4</h3>
+          <p>プロジェクト4の説明がここに入ります。</p>
+        </div>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト5">
+          <h3>プロジェクト5</h3>
+          <p>プロジェクト5の説明がここに入ります。</p>
+        </div>
+        <div class="main__project__gallery__item">
+          <img src="https://via.placeholder.com/300" alt="プロジェクト6">
+          <h3>プロジェクト6</h3>
+          <p>プロジェクト6の説明がここに入ります。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main__contact">
+      <h2>コンタクト</h2>
+      <form action="#" method="post" id="form">
+        <label for="name">名前:</label>
+        <input type="text" name="name" id="name">
+        <p class="error" id="nameError"></p>
+        <label for="email">メールアドレス:</label>
+        <input type="email" name="email" id="email">
+        <p class="error" id="emailError"></p>
+        <label for="message">メッセージ:</label>
+        <textarea name="message" id="message" rows="10"></textarea>
+        <p class="error" id="messageError"></p>
+        <input type="submit" value="送信">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 ポートフォリオサイト</p>
+  </footer>
+  <script src="kadai2.js"></script>
+</body>
+</html>
